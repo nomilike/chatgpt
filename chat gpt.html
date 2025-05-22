@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-image: url('2.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    table {
+      width: 50%;
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    tr {
+      background-color: red;
+    }
+
+    h1, p {
+      text-align: center;
+      color: white;
+    }
+
+    .marquees {
+      color: green;
+      font-size: 32px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to my website — it's all about Nomi</h1>
+  <p>Please share, subscribe, and push that notification button!</p>
+
+  <table>
+    <tr>
+      <th>NAME</th>
+      <th>COURSE</th>
+      <th>ADM NO</th>
+    </tr>
+    <tr>
+      <td>Nomilike</td>
+      <td>Comp Packages</td>
+      <td>NTC000103</td>
+    </tr>
+    <tr>
+      <td>Calvin</td>
+      <td>Comp Packages</td>
+      <td>NTC000102</td>
+    </tr>
+  </table>
+
+  <div class="marquees">
+    <marquee>nomilike</marquee>
+    <marquee width="100%" direction="right" height="100px">nomilike</marquee>
+    <marquee width="60%" direction="down" height="205px">nomilike</marquee>
+    <marquee behavior="scroll" direction="left" scrollamount="20">nomilike</marquee>
+  </div>
+
+</body>
+</html>
